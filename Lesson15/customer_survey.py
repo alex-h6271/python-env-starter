@@ -1,5 +1,7 @@
 ##This is a customer survey function. Feel free to modify the questions
 
+pip install NRCLex
+
 from nrclex import NRCLex
 
 def survey():
@@ -31,5 +33,7 @@ def survey():
 
   response = " ".join(userInput)
   return response
+  
+text_object.load_raw_text(text: )
   
   
