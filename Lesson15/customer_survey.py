@@ -34,6 +34,6 @@ def survey():
   response = " ".join(userInput)
   return response
   
-text_object.load_raw_text(text: )
+text_object.load_raw_text(text:"I think the product is good")
   
   
