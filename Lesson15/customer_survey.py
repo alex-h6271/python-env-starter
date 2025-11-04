@@ -1,5 +1,7 @@
 ##This is a customer survey function. Feel free to modify the questions
 
+from nrclex import NRCLex
+
 def survey():
   userInput=[]
 
@@ -29,3 +31,5 @@ def survey():
 
   response = " ".join(userInput)
   return response
+  
+  
